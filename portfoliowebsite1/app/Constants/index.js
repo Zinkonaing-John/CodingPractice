@@ -1,21 +1,22 @@
 import {
-  aflacLogo,
   android,
   angular,
-  cognizantLogo,
   facebook,
   firebase,
   instagram,
   ionic,
-  linkdin,
+  linkedin,
   mysql,
   nodejs,
   react,
   typescript,
-  wellsLogo,
-  wiuLogo,
   youtube,
 } from "../assets";
+
+import { cognizantLogo } from "../assets";
+import { wellsLogo } from "../assets";
+import { aflacLogo } from "../assets";
+import { wiuLogo } from "../assets";
 
 export const AppText = {
   hello: "Hello,",
@@ -116,25 +117,25 @@ export const workDetail = [
   {
     id: 1,
     year: "2021",
-    compnayName: "Wells Fargo",
+    companyName: "Wells Fargo",
     position: "Lead Software Developer",
   },
   {
     id: 1,
     year: "2020",
-    compnayName: "Empowered Benefits",
+    companyName: "Empowered Benefits",
     position: "Full Stack Developer",
   },
   {
     id: 1,
     year: "2018",
-    compnayName: "Western Illionois University",
+    companyName: "Western Illionois University",
     position: "Full Stack Developer",
   },
   {
     id: 1,
     year: "2016",
-    compnayName: "Cognizant",
+    companyName: "Cognizant",
     position: "Programmer Analyst",
   },
 ];
@@ -205,7 +206,7 @@ export const socialNetwork = [
   },
   {
     id: 1,
-    logo: linkdin,
+    logo: linkedin,
     url: "https://www.linkedin.com/in/rahul-sanap-652920108/",
   },
   {

@@ -58,7 +58,7 @@ function About() {
               <h2 className="group-hover:text-white font-bold  text-black text-center ">
                 {item.title}
               </h2>
-              <p className="group-hover:text-gray-300 text-black  text-gray-500 text-center">
+              <p className="group-hover:text-gray-300   text-gray-500 text-center">
                 {item.desc}
               </p>
             </div>

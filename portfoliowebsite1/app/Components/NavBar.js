@@ -7,7 +7,7 @@ function NavBar() {
   const [toggle, setToggle] = useState(false);
 
   return (
-    <div className="flex justify-between p-5">
+    <div className="flex justify-between p-5 bg-white">
       <Image src={logo} className="h-10 w-40 p-1" />
 
       <div className="text-black hidden md:flex">

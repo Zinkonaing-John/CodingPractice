@@ -4,7 +4,7 @@ import { homeImage } from "../assets";
 
 function Home() {
   return (
-    <div className="mt-7  px-4 md:px-20 flex flex-col md:flex-row items-center">
+    <div className="mt-7  px-4 md:px-20 flex flex-col md:flex-row items-center bg-white">
       <div>
         <h1 className="text-black pl-7 text-[40px] font-bold">Hello;</h1>
         <h1 className="text-black pl-7 text-[40px] font-bold">
